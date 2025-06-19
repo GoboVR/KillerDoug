@@ -1,14 +1,14 @@
 ﻿using BepInEx;
 using HarmonyLib;
 
-namespace KillerBee
+namespace KillerDoug
 {
-    [BepInPlugin("monky.killerbee", "KillerBee", "1.0.0")]
+    [BepInPlugin("gobo.killerdoug", "KillerDoug", "1.0.0")]
     public class Plugin : BaseUnityPlugin
     {
         void Start()
         {
-            Harmony.CreateAndPatchAll(GetType().Assembly, "monky.killerbee");
+            Harmony.CreateAndPatchAll(GetType().Assembly, "gobo.killerdoug");
         }
     }
 }
