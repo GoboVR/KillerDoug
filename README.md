@@ -1,3 +1,3 @@
-## Killer Bee
+## Killer Doug
 
-Kills you when the bees catch up to you
+Gorilla Tag mod that makes Doug Kill you. (Crash your game) 
