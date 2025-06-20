@@ -3,7 +3,7 @@ using HarmonyLib;
 using Photon.Pun;
 using UnityEngine;
 
-namespace KillerBee
+namespace KillerDoug
 {
     [HarmonyPatch(typeof(AngryBeeSwarm), "LateUpdate")]
     public class BeePatches
